@@ -1,0 +1,28 @@
+{
+  "name": "drawingpad",
+  "description": "Sample HTML canvas application using electron",
+  "main": "background.js",
+  "authors": [
+    "Sangram"
+  ],
+  "license": "MIT",
+  "homepage": "http://github.com/sangramjadhav",
+  "moduleType": [
+    "amd",
+    "es6",
+    "globals",
+    "node",
+    "yui"
+  ],
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "^2.2.3"
+  }
+}

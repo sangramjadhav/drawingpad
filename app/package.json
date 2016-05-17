@@ -1,0 +1,23 @@
+{
+  "name": "Drawing Pad",
+  "productName": "Drawing Pad",
+  "description": "Sample application developed using Electron.",
+  "version": "0.0.1",
+  "author": "Sangram Jadhav",
+  "copyright": "© 2016, Sangram Jadhav",
+  "main": "background.js",
+  "dependencies": {
+    "fs-jetpack": "^0.9.0"
+  },
+  "packageNameTemplate": "{{name}}-v{{version}}-{{platform}}-{{arch}}",
+  "osx": {
+    "build": "1",
+    "identifier": "org.sj.electron.drawingpad",
+    "LSApplicationCategoryType": "public.app-category.productivity",
+    "//codeSignIdentitiy": {
+      "dmg": "Developer ID Application: Sangram",
+      "MAS": "3rd Party Mac Developer Application: Sangram",
+      "MASInstaller": "3rd Party Mac Developer Installer: Sangram"
+    }
+  }
+}
